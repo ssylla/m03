@@ -11,12 +11,10 @@ import fr.eni.m03d02.bo.Formateur;
 @Component
 public class FormateurController {
 
-
-	private FormateurService formateurService;
-	
 	@Autowired
+	private FormateurService formateurService;
+
 	public FormateurController(FormateurService formateurService) {
-		super();
 		this.formateurService = formateurService;
 	}
 
@@ -29,10 +27,9 @@ public class FormateurController {
 		return formateurService;
 	}
 
-	
 	public void setFormateurService(FormateurService formateurService) {
 		System.out.println("Appel du setter");
 		this.formateurService = formateurService;
-	}	
-	
+	}
+
 }
