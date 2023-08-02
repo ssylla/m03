@@ -14,7 +14,7 @@ public class FormateurController {
 	@Autowired
 	private FormateurService formateurService;
 
-	public FormateurController(FormateurService formateurService) {
+	public FormateurController( /* Qualifier("getBeanFormateurService") */ FormateurService formateurService) {
 		this.formateurService = formateurService;
 	}
 

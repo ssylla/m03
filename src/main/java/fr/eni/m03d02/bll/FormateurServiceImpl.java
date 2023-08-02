@@ -3,14 +3,12 @@ package fr.eni.m03d02.bll;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Service;
 
 import fr.eni.m03d02.bo.Formateur;
 import fr.eni.m03d02.dal.FormateurDAO;
 
-@Service
-@Profile("default")
+//@Service
+//@Profile("default")
 public class FormateurServiceImpl implements FormateurService {
 
 	private FormateurDAO formateurDAO;

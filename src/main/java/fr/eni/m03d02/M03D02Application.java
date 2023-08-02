@@ -31,4 +31,5 @@ public class M03D02Application {
 		formateurController.afficherFormateurs();
 		formateurController.afficherFormateurs();
 	}
+
 }

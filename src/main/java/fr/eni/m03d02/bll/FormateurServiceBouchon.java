@@ -3,13 +3,10 @@ package fr.eni.m03d02.bll;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Service;
-
 import fr.eni.m03d02.bo.Formateur;
 
-@Service
-@Profile("dev")
+//@Service
+//@Profile("dev")
 public class FormateurServiceBouchon implements FormateurService {
 	
 	private static List<Formateur> lstFormateurs;

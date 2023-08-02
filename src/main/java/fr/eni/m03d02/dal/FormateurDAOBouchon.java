@@ -3,11 +3,8 @@ package fr.eni.m03d02.dal;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.stereotype.Repository;
-
 import fr.eni.m03d02.bo.Formateur;
 
-@Repository
 public class FormateurDAOBouchon implements FormateurDAO {
 
 	
